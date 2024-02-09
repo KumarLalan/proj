@@ -1,0 +1,198 @@
+        @font-face {
+            font-family: hindi;
+            src: url(./Kruti_Dev_010.ttf);
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: "Noto Sans Devanagari", sans-serif;
+        }
+
+        .container {
+            width: 19cm;
+            margin: 20px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            padding: 20px;
+            position: relative;
+            font-size: 14px;
+        }
+
+        .page {
+            width: 19cm;
+            height: 27.7cm;
+            margin: -20px;
+            margin-top: 30px;
+            border: none;
+            box-sizing: border-box;
+            padding: 0px;
+            position: relative;
+            font-size: 14px;
+            page-break-inside: avoid;
+        }
+        .top {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box {
+            width: 30%;
+            height: 70px;
+            border: none;
+            box-sizing: border-box;
+            text-indent: 2px;
+        }
+
+        .page .box {
+            width: 30%;
+        }
+
+        .case {
+            display: flex;
+        }
+
+        .header {
+            display: flex;
+            page-break-inside: avoid;
+        }
+
+        .box1 {
+            width: 25%;
+            height: 70px;
+            border: 1px solid black;
+            border-left: none;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        .box2 {
+            width: 75%;
+            height: 70px;
+            border: 1px solid black;
+            border-right: none;
+            box-sizing: border-box;
+            text-align: center;
+            font-family: hindi;
+            font-size: 18px;
+        }
+
+        .main {
+            display: flex;
+            margin-top: 0;
+            page-break-inside: avoid;
+        }
+
+        .side {
+            width: 25%;
+            border: 1px solid black;
+            border-left: none;
+            border-right:2px solid black ;
+            border-bottom: none;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 20px;
+            height: 770px;
+            font-family: hindi;
+        }
+
+        .reg {
+            height: 550px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .cont {
+            width: 75%;
+            margin-left: 10px;
+            margin-top: 10px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            box-sizing: border-box;
+            height: 760px;
+        }
+
+        .cont textarea {
+            font-family: hindi;
+            width: calc(100% - 20px);
+            height: calc(100% - 20px);
+            border: none;
+            outline: none;
+            resize: none;
+            font-size: 18px;
+            padding: 10px;
+            white-space: pre-wrap;
+            /* overflow-y: auto; */
+        }
+        #myTextarea {
+            font-family: hindi;
+            margin-top: 10px;
+            margin-left: 10px;
+            width: calc(100% - 20px);
+            height: calc(100% - 20px);
+            border: none;
+            outline: none;
+            resize: none;
+            font-size: 18px;
+            box-sizing: border-box;
+            padding: 10px;
+            white-space: pre-wrap;
+            overflow-y: hidden;
+        }
+        #myarea {
+            font-family: hindi;
+            margin-top: 20px;
+            margin-left: 10px;
+            width: calc(100% - 5px);
+            height: calc(100% - 20px);
+            border: none;
+            outline: none;
+            resize: none;
+            font-size: 18px;
+            box-sizing: border-box;
+            white-space: pre-wrap;
+            overflow-y: hidden;
+        }
+
+        #pageNumber {
+            text-align: right;
+            font-size:30px;
+        }
+
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+
+        input {
+            border: none;
+            border-bottom: dotted black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .fontSize {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            margin-top: 50px;
+            z-index: 1000;
+          }
+          #labelhai{
+            margin-top: 80px;
+          }

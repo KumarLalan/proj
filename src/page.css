@@ -1,0 +1,52 @@
+/* page.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  margin: 1cm auto;
+  border: 1px solid black;
+  display: flex;
+  position: relative;
+}
+
+.box0 {
+  flex: 1;
+}
+
+#box1 {
+  margin: 20px;
+  margin-right: 0;
+  width: 25%;
+  height: 95%;
+  border: 1px solid black;
+  border-left: none;
+}
+
+#box2 {
+  margin: 20px;
+  margin-left: 0;
+  width: 75%;
+  height: 95%;
+  border: 1px solid black;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area {
+  width: 90%;
+  height: 90%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+}
